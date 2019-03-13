@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SunopsisExport>
+<Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="bDsUjPqGv9SJOOHhkZfUzg==" exportKeySalt="d1c95d91-f2e3-477d-b3fe-90e690fbe739" containsCipherText="false"/>
+<Object class="com.sunopsis.dwg.dbobj.SnpConnect">
+		<Field name="AuthenMethod" type="java.lang.String">null</Field>
+	<Field name="BatchUpdateSize" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
+	<Field name="Classpath" type="java.lang.String"><![CDATA[/etc/hadoop/conf
+/usr/lib/hadoop/lib/*
+/usr/lib/hadoop-hdfs/*
+/usr/lib/hadoop-mapreduce/*
+/usr/lib/hadoop-yarn/*
+/usr/lib/hadoop/*
+/usr/lib/oozie/lib/*
+]]></Field>
+	<Field name="ConnectType" type="java.lang.String"><![CDATA[H]]></Field>
+	<Field name="ConName" type="java.lang.String"><![CDATA[Hadoop]]></Field>
+	<Field name="DservName" type="java.lang.String">null</Field>
+	<Field name="FetchArrayServ" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2015-11-17 01:09:28.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[98408b0a-aa03-4ef1-bedc-c8c76b646a94]]></Field>
+	<Field name="HadoopJobTrackerUri" type="java.lang.String"><![CDATA[bigdatalite.localdomain:8032]]></Field>
+	<Field name="HadoopNameNodeUri" type="java.lang.String"><![CDATA[hdfs://bigdatalite.localdomain:8020]]></Field>
+	<Field name="HadoopOdiRoot" type="java.lang.String"><![CDATA[/user/odi/odi_home]]></Field>
+	<Field name="HbaseQuorum" type="java.lang.String">null</Field>
+	<Field name="HiveMsUri" type="java.lang.String">null</Field>
+	<Field name="IdentityDomainName" type="java.lang.String">null</Field>
+	<Field name="IndJndi" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[24]]></Field>
+	<Field name="IHost" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[118]]></Field>
+	<Field name="ITxtJavaUrl" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITxtJndiUrl" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITxtWsBaseUrl" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="JagentHost" type="java.lang.String">null</Field>
+	<Field name="JagentMgrPort" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="JagentPort" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="JavaDriver" type="java.lang.String">null</Field>
+	<Field name="JndiAuthent" type="java.lang.String">null</Field>
+	<Field name="JndiFactory" type="java.lang.String">null</Field>
+	<Field name="JndiProto" type="java.lang.String">null</Field>
+	<Field name="JndiPwd" type="java.lang.String">null</Field>
+	<Field name="JndiRessource" type="java.lang.String"><![CDATA[/dataload/v1]]></Field>
+	<Field name="JndiUser" type="java.lang.String">null</Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-01-05 11:19:01.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="OggInstallPath" type="java.lang.String">null</Field>
+	<Field name="OnConApplyCond" type="java.lang.String">null</Field>
+	<Field name="OnConCmd" type="java.lang.String">null</Field>
+	<Field name="OnConIndCommit" type="java.lang.String">null</Field>
+	<Field name="OnConIndErr" type="java.lang.String">null</Field>
+	<Field name="OnConLogLevel" type="java.lang.String">null</Field>
+	<Field name="OnDcnApplyCond" type="java.lang.String">null</Field>
+	<Field name="OnDcnCmd" type="java.lang.String">null</Field>
+	<Field name="OnDcnIndCommit" type="java.lang.String">null</Field>
+	<Field name="OnDcnIndErr" type="java.lang.String">null</Field>
+	<Field name="OnDcnLogLevel" type="java.lang.String">null</Field>
+	<Field name="ParIConnect" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="Pass" type="java.lang.String">null</Field>
+	<Field name="PigExecType" type="java.lang.String">null</Field>
+	<Field name="TgtParallelConfig" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="UserName" type="java.lang.String"><![CDATA[oracle]]></Field>
+	<Field name="WsDeployMode" type="java.lang.String"><![CDATA[U]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConnectProp">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[4353e3df-e5d6-4376-92ea-0cd04012f7bd]]></Field>
+	<Field name="IndUndefined" type="java.lang.String">null</Field>
+	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[24]]></Field>
+	<Field name="PropKey" type="java.lang.String"><![CDATA[HADOOP_CLASSPATH]]></Field>
+	<Field name="PropValueClob" type="java.lang.String"><![CDATA[${HADOOP_CLASSPATH:+$HADOOP_CLASSPATH':'}.:/usr/lib/hive/lib/*:/u01/connectors/olh/jlib/*:/u01/connectors/ohsh/jlib/*]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConnectProp">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[ff1083cb-3fb0-4349-9404-7da24e2d7d72]]></Field>
+	<Field name="IndUndefined" type="java.lang.String">null</Field>
+	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[24]]></Field>
+	<Field name="PropKey" type="java.lang.String"><![CDATA[HADOOP_CLIENT_OPTS]]></Field>
+	<Field name="PropValueClob" type="java.lang.String"><![CDATA[-Dlog4j.debug -Dhadoop.root.logger=INFO,console -Dlog4j.configuration=file:/etc/hadoop/conf.cloudera.yarn/log4j.properties]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConnectProp">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[fb6a967d-64a6-4711-bfcc-75f93cddcdd4]]></Field>
+	<Field name="IndUndefined" type="java.lang.String">null</Field>
+	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[24]]></Field>
+	<Field name="PropKey" type="java.lang.String"><![CDATA[HADOOP_HOME]]></Field>
+	<Field name="PropValueClob" type="java.lang.String"><![CDATA[/usr/lib/hadoop]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConnectProp">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[de124851-8d2e-48a7-946b-a6b057631845]]></Field>
+	<Field name="IndUndefined" type="java.lang.String">null</Field>
+	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[24]]></Field>
+	<Field name="PropKey" type="java.lang.String"><![CDATA[HBASE_HOME]]></Field>
+	<Field name="PropValueClob" type="java.lang.String"><![CDATA[/usr/lib/hbase]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConnectProp">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[36ea2625-269c-4ae4-917e-6b8a7bf54e3b]]></Field>
+	<Field name="IndUndefined" type="java.lang.String">null</Field>
+	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[24]]></Field>
+	<Field name="PropKey" type="java.lang.String"><![CDATA[HIVE_HOME]]></Field>
+	<Field name="PropValueClob" type="java.lang.String"><![CDATA[/usr/lib/hive]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConnectProp">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[54549432-3e12-4af4-a6fc-49eb3b095bc2]]></Field>
+	<Field name="IndUndefined" type="java.lang.String">null</Field>
+	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[24]]></Field>
+	<Field name="PropKey" type="java.lang.String"><![CDATA[HIVE_SESSION_JARS]]></Field>
+	<Field name="PropValueClob" type="java.lang.String"><![CDATA[/usr/lib/hive/lib/hive-contrib.jar]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConnectProp">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[45ec62fb-230e-4ff6-b3ab-705ebce853e4]]></Field>
+	<Field name="IndUndefined" type="java.lang.String">null</Field>
+	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[24]]></Field>
+	<Field name="PropKey" type="java.lang.String"><![CDATA[ODCH_HOME]]></Field>
+	<Field name="PropValueClob" type="java.lang.String"><![CDATA[/u01/connectors/ohsh]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConnectProp">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[2fdb5793-ee3c-4234-abca-aed357907355]]></Field>
+	<Field name="IndUndefined" type="java.lang.String">null</Field>
+	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[24]]></Field>
+	<Field name="PropKey" type="java.lang.String"><![CDATA[OLH_FILES]]></Field>
+	<Field name="PropValueClob" type="java.lang.String"><![CDATA[/usr/lib/hive/lib/hive-contrib.jar]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConnectProp">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[b436445c-05ba-44fe-ae33-28370f56c518]]></Field>
+	<Field name="IndUndefined" type="java.lang.String">null</Field>
+	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[24]]></Field>
+	<Field name="PropKey" type="java.lang.String"><![CDATA[OLH_HOME]]></Field>
+	<Field name="PropValueClob" type="java.lang.String"><![CDATA[/u01/connectors/olh]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConnectProp">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[1017bc82-a865-41fa-87d8-dbfe9b506948]]></Field>
+	<Field name="IndUndefined" type="java.lang.String">null</Field>
+	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[24]]></Field>
+	<Field name="PropKey" type="java.lang.String"><![CDATA[OLH_JARS]]></Field>
+	<Field name="PropValueClob" type="java.lang.String"><![CDATA[/usr/lib/hive/lib/hive-common.jar,/usr/lib/hive/lib/hive-exec.jar,/usr/lib/hive/lib/hive-metastore.jar]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConnectProp">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[aa7d53bd-56f2-42bd-8883-fdcbbfdf62cf]]></Field>
+	<Field name="IndUndefined" type="java.lang.String">null</Field>
+	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[24]]></Field>
+	<Field name="PropKey" type="java.lang.String"><![CDATA[SQOOP_HOME]]></Field>
+	<Field name="PropValueClob" type="java.lang.String"><![CDATA[/usr/lib/sqoop]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConnectProp">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[02a78885-d31e-4a14-9f19-7ec62c0b5c19]]></Field>
+	<Field name="IndUndefined" type="java.lang.String">null</Field>
+	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[24]]></Field>
+	<Field name="PropKey" type="java.lang.String"><![CDATA[SQOOP_LIBJARS]]></Field>
+	<Field name="PropValueClob" type="java.lang.String"><![CDATA[/usr/lib/hive/lib/hive-contrib.jar]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpPschema]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[Hadoop_Default]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[9c97bdbe-146f-4b71-9bf5-6b0c6504097b]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[faacd0c52c0c018f7270ac3b9cad934a9c311f15]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[PSC_Hadoop_Default.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.118]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[e5c65c78-513a-476d-9ae7-c6bd6d6eb599]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Hadoop]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[6]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_CONNECT.24]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[98408b0a-aa03-4ef1-bedc-c8c76b646a94]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Hadoop.Hadoop]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_CONNECT]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[6.6]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.DwgExportSummary">
+		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="InstObjNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="LinkDiagNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[13]]></Field>
+	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeOrigNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeUsedNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="VarPlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ScenTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OdiVersion" type="java.lang.String"><![CDATA[12.2.1]]></Field>
+	<Field name="OriginRepositoryID" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="RepositoryVersion" type="java.lang.String"><![CDATA[05.02.02.07]]></Field>
+</Object>
+</SunopsisExport>
